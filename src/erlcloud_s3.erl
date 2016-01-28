@@ -30,7 +30,8 @@
          abort_multipart/3, abort_multipart/6,
          list_multipart_uploads/1, list_multipart_uploads/2,
          get_object_url/2, get_object_url/3,
-         get_bucket_and_key/1
+         get_bucket_and_key/1,
+         make_authorization/10
         ]).
 
 -include_lib("erlcloud/include/erlcloud.hrl").
